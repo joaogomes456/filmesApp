@@ -4,22 +4,123 @@
       Filmes
     </ion-title>
   </ion-toolbar>
+  <ion-searchbar class="barra" color='medium tint' placeholder="FIlmes"></ion-searchbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  
+
   <ion-list>
-  
-    <ion-item>
+
+    <ion-item routerLink="/gijoeorigens" lines="full">
+
       <ion-thumbnail class="fimg" slot="start">
         <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/uIXF0sQGXOxQhbaEaKOi2VYlIL0.jpg">
       </ion-thumbnail>
+
       <ion-label class="ion-text-wrap">
-        <h1 class="filme">G.I. Joe Origens: Snake Eyes</h1>
-        <p>19/08/2021</p>
-        <ion-badge class="tipo" mode="ios" slot="start" color="medium">Ação</ion-badge>
-        <ion-badge class="tipo" mode="ios" slot="start" color="medium">Aventura</ion-badge>
+        <div>
+          <h1 class="titulo">G.I. Joe Origens: Snake Eyes (2021)</h1>
+          <p class="subti">19/08/2021 (BR) - 2h 1m</p>
+          <ion-badge class="tipo" mode="ios" slot="start" color="medium">Ação</ion-badge>
+          <ion-badge class="tipo" mode="ios" slot="start" color="medium">Aventura</ion-badge>
+        </div>
       </ion-label>
+
+      <ion-chip class="nota" color="secondary" outline>
+        <ion-label>71%</ion-label>
+      </ion-chip>
+
+    </ion-item>
+
+    <ion-item routerLink="/patrulhacanina-ofilme" lines="full">
+
+      <ion-thumbnail class="fimg" slot="start">
+        <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ic0intvXZSfBlYPIvWXpU1ivUCO.jpg">
+      </ion-thumbnail>
+
+      <ion-label class="ion-text-wrap">
+        <div>
+          <h1 class="titulo">Patrulha Canina: O Filme (2021)</h1>
+          <p class="subti">20/08/2021 (US) - 1h 28m</p>
+          <ion-badge class="tipo" mode="ios" slot="start" color="medium">Animação</ion-badge>
+          <ion-badge class="tipo" mode="ios" slot="start" color="medium">Familia</ion-badge>
+          <ion-badge class="tipo" mode="ios" slot="start" color="medium">Aventura</ion-badge>
+          <ion-badge class="tipo" mode="ios" slot="start" color="medium">Comédia</ion-badge>
+        </div>
+      </ion-label>
+
+      <ion-chip class="nota" color="secondary" outline>
+        <ion-label>83%</ion-label>
+      </ion-chip>
+
+    </ion-item>
+
+    <ion-item routerLink="/samuraix-aorigem" lines="full">
+
+      <ion-thumbnail class="fimg" slot="start">
+        <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/eKfxxGjjVqrWx2iD2AxQUiY1hwR.jpg">
+      </ion-thumbnail>
+
+      <ion-label class="ion-text-wrap">
+        <div>
+          <h1 class="titulo">Samurai X: A Origem (2021)</h1>
+          <p class="subti">04/06/2021 (JP) - 2h 18m</p>
+          <ion-badge class="tipo" mode="ios" slot="start" color="medium">Ação</ion-badge>
+          <ion-badge class="tipo" mode="ios" slot="start" color="medium">Aventura</ion-badge>
+          <ion-badge class="tipo" mode="ios" slot="start" color="medium">Drama</ion-badge>
+        </div>
+      </ion-label>
+
+      <ion-chip class="nota" color="secondary" outline>
+        <ion-label>78%</ion-label>
+      </ion-chip>
+
+    </ion-item>
+
+    <ion-item routerLink="/cargaexplosivatres" lines="full">
+
+      <ion-thumbnail class="fimg" slot="start">
+        <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ngpLhUccj6mlvAVpiIa7jUcFxhT.jpg">
+      </ion-thumbnail>
+
+      <ion-label class="ion-text-wrap">
+        <div>
+          <h1 class="titulo">Carga Explosiva 3 (2008)</h1>
+          <p class="subti">26/11/2008 (BR) - 1h 44m</p>
+          <ion-badge class="tipo" mode="ios" slot="start" color="medium">Ação</ion-badge>
+          <ion-badge class="tipo" mode="ios" slot="start" color="medium">Aventura</ion-badge>
+          <ion-badge class="tipo" mode="ios" slot="start" color="medium">Thriller</ion-badge>
+          <ion-badge class="tipo" mode="ios" slot="start" color="medium">Crime</ion-badge>
+        </div>
+      </ion-label>
+
+      <ion-chip class="nota" color="secondary" outline>
+        <ion-label>61%</ion-label>
+      </ion-chip>
+
+    </ion-item>
+
+    <ion-item routerLink="/stillwater" lines="full">
+
+      <ion-thumbnail class="fimg" slot="start">
+        <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/5sS0QUxm0uZAhJV772Z8IcdTjic.jpg">
+      </ion-thumbnail>
+
+      <ion-label class="ion-text-wrap">
+        <div>
+          <h1 class="titulo">Stillwater (2021)</h1>
+          <p class="subti">30/07/2021 (US) - 2h 19m</p>
+          <ion-badge class="tipo" mode="ios" slot="start" color="medium">Drama</ion-badge>
+          <ion-badge class="tipo" mode="ios" slot="start" color="medium">Crime</ion-badge>
+          <ion-badge class="tipo" mode="ios" slot="start" color="medium">Thriller</ion-badge>
+          <ion-badge class="tipo" mode="ios" slot="start" color="medium">Aventura</ion-badge>
+        </div>
+      </ion-label>
+
+      <ion-chip class="nota" color="secondary" outline>
+        <ion-label>68%</ion-label>
+      </ion-chip>
+
     </ion-item>
 
   </ion-list>

@@ -1,17 +1,38 @@
 .header{
+color:#000000;
 font-weight: 700;
 text-align: center;
 }
 
-.filme{
-    font-size: 20px;
-}
 
 .fimg{
-    width: 70px;
-    height: 110px;
+  width:4.2rem;
+  height: 7rem;
 }
 
 .tipo{
-margin-right: 8px;
+font-size:0.9rem;
+margin-right: 0.3rem;
+}
+
+.titulo{
+  font-weight: bold;
+  font-size:1.2rem;
+}
+
+.subti{
+ font-size:1.0rem;
+ margin-bottom: 0.2rem;
+}
+
+.nota{
+ border-style:solid;
+ border-radius: 2rem;
+ padding-inline:0.5rem;
+ height:3rem;
+ width:3rem;
+}
+
+.barra{
+  background-color:#ffffff;
 }
