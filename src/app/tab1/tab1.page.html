@@ -1,17 +1,28 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
+<ion-header>
+  <ion-toolbar color="secondary shade">
+    <ion-title class="header">
+      Filmes
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  
+  <ion-list>
+  
+    <ion-item>
+      <ion-thumbnail class="fimg" slot="start">
+        <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/uIXF0sQGXOxQhbaEaKOi2VYlIL0.jpg">
+      </ion-thumbnail>
+      <ion-label class="ion-text-wrap">
+        <h1 class="filme">G.I. Joe Origens: Snake Eyes</h1>
+        <p>19/08/2021</p>
+        <ion-badge class="tipo" mode="ios" slot="start" color="medium">Ação</ion-badge>
+        <ion-badge class="tipo" mode="ios" slot="start" color="medium">Aventura</ion-badge>
+      </ion-label>
+    </ion-item>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  </ion-list>
+
+
 </ion-content>
