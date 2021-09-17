@@ -2,6 +2,7 @@ import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
 
+
 import { Tab2Page } from './tab2.page';
 
 describe('Tab2Page', () => {
@@ -23,3 +24,4 @@ describe('Tab2Page', () => {
     expect(component).toBeTruthy();
   });
 });
+
